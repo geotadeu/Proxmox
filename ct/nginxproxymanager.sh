@@ -32,7 +32,7 @@ catch_errors
 function default_settings() {
   CT_TYPE="1"
   PW=""
-  CT_ID=101
+  CT_ID=$NEXTID
   HN=$NSAPP
   DISK_SIZE="$var_disk"
   CORE_COUNT="$var_cpu"
